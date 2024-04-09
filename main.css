@@ -1,3 +1,18 @@
 body {
   background-color: rgb(30, 192, 197);
 }
+
+#articleContainer {
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 30vh auto;
+}
+
+#celticArticle, #starbucksArticle {
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+  flex: 1;
+}
