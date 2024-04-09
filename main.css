@@ -13,15 +13,22 @@ body {
 }
 
 #celticArticle, #starbucksArticle {
-  width: 500px;
+  width: 800px;
   text-align: center;
   flex: 1;
   margin: 5vw;
   padding: 15px;
+  transition: all 0.4s ease;
 }
 
 #celticArticle {
   background-color: rgb(255, 253, 208);
+  border: 10px solid black;
+  border-style: none none solid solid;
+  border-radius: 30% 0% 30% 0%;
+}
+
+#celticArticle:hover {
 }
 
 #celticArticle h1 {
@@ -34,6 +41,9 @@ body {
 
 #starbucksArticle {
   background-color: rgb(51, 196, 51);
+  border: 10px solid white;
+  border-style: solid solid none none;
+  border-radius: 30% 0% 30% 0%;
 }
 
 #starbucksArticle p {
