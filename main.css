@@ -13,10 +13,21 @@ body {
 }
 
 #celticArticle, #starbucksArticle {
-  border: 1px solid black;
   width: 500px;
   text-align: center;
   flex: 1;
   margin: 5vw;
   padding: 15px;
+}
+
+#celticArticle {
+  background-color: rgb(126, 109, 77);
+}
+
+#celticArticle h1 {
+  color: white;
+}
+
+#celticArticle p {
+  font-family: Arial, Helvetica, sans-serif;
 }
