@@ -1,12 +1,14 @@
 body {
-  background-color: rgb(30, 192, 197);
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #articleContainer {
   /* border: 2px solid orange; */
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1400px;
   margin: 30vh auto;
 }
 
