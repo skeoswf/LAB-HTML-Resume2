@@ -3,16 +3,18 @@ body {
 }
 
 #articleContainer {
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 2px solid orange; */
   display: flex;
   justify-content: space-between;
-  width: 500px;
+  width: 1200px;
   margin: 30vh auto;
 }
 
 #celticArticle, #starbucksArticle {
   border: 1px solid black;
-  width: 300px;
+  width: 500px;
   text-align: center;
   flex: 1;
+  margin: 5vw;
+  padding: 15px;
 }
